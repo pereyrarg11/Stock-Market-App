@@ -8,7 +8,7 @@ interface StockApi {
 
     @GET("query?function=LISTING_STATUS")
     suspend fun getListings(
-        @Query("api_key") apiKey: String,
+        @Query("api_key") apiKey: String = API_KEY,
     ): ResponseBody // this will provide access to the byte stream only
 
     companion object {

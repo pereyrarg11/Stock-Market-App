@@ -9,12 +9,12 @@ plugins {
 
 android {
     namespace 'com.pereyrarg11.stockmarketapp'
-    compileSdk 34
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.pereyrarg11.stockmarketapp"
         minSdk 21
-        targetSdk 34
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
